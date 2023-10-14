@@ -107,13 +107,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Combat Warriors",
-	Callback = function() 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/leakediz/top-g/main/combat%20warriors"))()
-	end,
-})
-
-local Button = Tab:CreateButton({
 	Name = "Breaking Point",
 	Callback = function() 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RestScripts/BreakingPointYuzufHub/main/YuzufAB", true))()
@@ -170,9 +163,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "CB:RO",
+	Name = "Combat Warriors",
 	Callback = function() 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/NooVster/404/main/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
 	end,
 })
 
@@ -242,32 +235,16 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("😂FE/FUN GUI's")
 local Section = Tab:CreateSection("😂FE/FUN GUI's")
 local Label = Tab:CreateLabel("Thanks for using Juicy hub!")
-local Label = Tab:CreateLabel("Neko Girl Hotkeys:R - Lay Down T - Giggle F - Claws Equip / Unequip C - Drop / Pick Up Pants V - Whip Dem Titties Out")
-local Label = Tab:CreateLabel("This is visual, only you see.")
 
 local Button = Tab:CreateButton({
-	Name = "Neko Girl",
-	Callback = function() 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/RestScripts/NekoGirl/main/Fe", true))()
-	end,
-})
-
-local Button = Tab:CreateButton({
-	Name = "Hubz Animations",
-	Callback = function() 
-		loadstring(game:HttpGet("https://textbin.net/raw/k3sjvw3vrq"))();
-	end,
-})
-
-local Button = Tab:CreateButton({
-	Name = "Loop Fling All",
+	Name = "Loop Fling All (Not work)",
 	Callback = function() 
 		loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 	end,
 })
 
 local Button = Tab:CreateButton({
-	Name = "Fling All",
+	Name = "Fling All (Works bad)",
 	Callback = function() 
 		loadstring(game:HttpGet("https://pastebinp.com/raw/Ly1P5tsc", true))()
 	end,
@@ -277,12 +254,5 @@ local Button = Tab:CreateButton({
 	Name = "Fling",
 	Callback = function() 
 		loadstring(game:HttpGet("https://pastebinp.com/raw/FFApH86f",true))()
-	end,
-})
-
-local Button = Tab:CreateButton({
-	Name = "Chat Bypass",
-	Callback = function() 
-		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end,
 })
