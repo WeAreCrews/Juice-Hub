@@ -21,7 +21,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Get key!",
       Subtitle = "Key System",
-      Note = "Key in our discord https://discord.gg/M68XWBXRs2",
+      Note = "Key is JuiceHeaven",
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -31,11 +31,11 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("🏠Main GUI's")
 local Section = Tab:CreateSection("🏠Main GUI's")
-local Label = Tab:CreateLabel("Thanks for using Juicy hub!")
+local Label = Tab:CreateLabel("Thanks for using Juice hub!")
  
 local Input = Tab:CreateInput({
 	Name = "Our Discord",
-	PlaceholderText = "Join us! https://discord.gg/M68XWBXRs2",
+	PlaceholderText = "Join us! [Discord Deleted LMAO]",
 	RemoveTextAfterFocusLost = false,
 	Callback = function(Text)
 	-- The function that takes place when the input is changed
@@ -169,9 +169,16 @@ local Button = Tab:CreateButton({
 	end,
 })
 
+local Button = Tab:CreateButton({
+	Name = "FTAP --Credits to niiilllexe (scriptbloxxxxxxxxx)",
+	Callback = function() 
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/neeloves/lua/main/TryHard.lua'))()
+	end,
+})
+
 local Tab = Window:CreateTab("💥Admin GUI's")
 local Section = Tab:CreateSection("💥Admin GUI's")
-local Label = Tab:CreateLabel("Thanks for using Juicy hub!")
+local Label = Tab:CreateLabel("Thanks for using Juice hub!")
  
 local Input = Tab:CreateInput({
 	Name = "Our Discord",
@@ -213,7 +220,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("🎲Misc GUI's")
 local Section = Tab:CreateSection("🎲Misc GUI's")
-local Label = Tab:CreateLabel("Thanks for using Juicy hub!")
+local Label = Tab:CreateLabel("Thanks for using Juice hub!")
  
 local Input = Tab:CreateInput({
 	Name = "Our Discord",
