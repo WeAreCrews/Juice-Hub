@@ -1,2 +1,2 @@
 # Juice-Hub
-Script for Roblox.
+A script hub that provides best scripts with my choice.
